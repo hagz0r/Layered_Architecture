@@ -1,0 +1,16 @@
+[package]
+name = "actix"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4.3.1"
+envy = "0.4.2"
+serde = { version = "1.0.164", features = ["derive"] }
+chrono = {version = "0.4.26", features = ["serde"] }
+toml = "0.7.4"
+tokio-postgres = {version = "0.7.8", features = ["with-chrono-0_4"]}
+tokio = { version = "1.28.2", features = ["full"] }
+env_logger = "0.10.0"

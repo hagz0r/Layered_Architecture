@@ -1,0 +1,2 @@
+[Database]
+connection_string = "postgresql://postgres:root@localhost:5432/postgres"
